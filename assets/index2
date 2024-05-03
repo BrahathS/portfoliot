@@ -1,0 +1,67 @@
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to my css file -->
+    <link rel="stylesheet" href="assets/stylesheet.css">
+    <!-- scripts -->
+    <script src="assets/main.js"></script>
+    <!-- scripts libraries -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script> src="https://code.jquery.com/jquery-3.5.1.min.js" </script>
+    <!-- tab title -->
+    <title>Brahath Portfolio</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar" id="mynavbar">
+        <div class="max-width">
+            <div class="logo"><a href="index.html">Port <span> folio</span></a></div>
+
+            <ul class="menu"> 
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="about.html"> About Me </a></li>
+                <li><a href="project.html"> Projects </a></li>
+                <li><a href="contact.html"> Contact Me </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="toggle" onclick="toggleMenu"> </div>
+
+    <!-- dark mode -->
+
+    <button class="darkbtn" onclick="colourSchemeShift()"> Dark mode </button>
+
+
+    <!-- image with text -->
+    <header class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="space"> </div>
+                <div class="text-2"> Hello I am Brahath Shet </div>
+                <div class="text-3"> I'm a <span class="type"> Programmer </span><span class="cursor"> &nbsp;</span> </div>
+                <img src="img/bannerv2.jpg" class= "imgbanner" id="bg" alt="banner">
+            </div>
+        </div>
+    </header>
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <span> Created By <a href="index.html"> Brahath Shet </a></span> | &copy; <span> 2021 All rights reserved. </span> 
+        </div>    
+    
+        <!-- image links for social media -->
+        <div class="sociallinks" > 
+            <li><a href="https://www.facebook.com/brahath.shet.bs3009/"> <img src="img/facebook2.png" alt="facebooklogo" height= 25em width= 25em> </a></li>
+            <li><a href=" https://twitter.com/iambrahath"> <img src="img/twitter.png" alt="twitterlogo" height= 25em width= 25em> </a></li>
+            <li><a href=" https://www.instagram.com/s_brahath/"> <img src="img/instagram.png" alt="instagramlogo" height= 25em width= 25em> </a></li>
+            <li><a href=" https://www.linkedin.com/in/brahath-shet-90b07018b/"> <img src="img/linkedin.png" alt="linkedin" height= 25em width= 25em> </a></li>
+        </div>
+    </footer> 
+  
