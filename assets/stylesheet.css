@@ -254,9 +254,6 @@ footer span a{
 }
 .imgbanner:hover {
     transform: scale(1.1);
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
-    border-radius: 10%;
     opacity: 0.8;
 }
 .project-title{
