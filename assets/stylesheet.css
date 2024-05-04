@@ -253,9 +253,11 @@ footer span a{
     padding: 5.8em; 
 }
 .imgbanner:hover {
-    transform: 1.1s ease-in-out;
-    border-radius: 50%;
-    opacity: 0.7;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    border-radius: 10%;
+    opacity: 0.8;
 }
 .project-title{
     padding-top: 4em;
