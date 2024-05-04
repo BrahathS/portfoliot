@@ -254,6 +254,7 @@ footer span a{
 }
 .imgbanner:hover {
     transform: 1.1s ease-in-out;
+    border-radius: 50%;
     opacity: 0.7;
 }
 .project-title{
